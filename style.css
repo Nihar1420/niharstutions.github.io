@@ -1,0 +1,362 @@
+
+/* Here we will write our CSS for the website */
+
+body
+{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    overflow-x: hidden;
+    color: white;
+    
+}    
+
+html
+{
+    font-size: 62.5%;
+}
+
+nav
+{
+    position: absolute;
+    width: 152.0rem;
+    height: 7.2rem;
+    left: 0rem;
+    top: 0rem;
+    background: #331f35;
+}
+
+.items
+{
+    position: absolute;
+    width: 63.3rem;
+    height: 7.2rem;
+    left:54.3rem;
+    top: 0rem;
+}
+
+.items ul
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item
+{
+    text-decoration: none;
+    margin: 0.7rem 1.0rem;
+    padding: 0rem 1.0rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 2.9rem;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #f5f5f5;
+    mix-blend-mode: normal;
+}
+
+.item:hover
+{
+    cursor: pointer;
+    color: aquamarine;
+    background-color: brown;
+}
+
+.logo
+{
+    position: absolute;
+    width: 5.2rem;
+    height: 5.2rem;
+    left: 3.5rem;
+    top: 1.0rem;
+    background:url(https://image.flaticon.com/icons/png/512/3600/3600934.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+section
+{
+    position: absolute;
+    width: 152.0rem;
+    height: 37.0rem;
+    left: 0rem;
+    top: 7.2rem;
+    background: #e7b9fc;
+}
+
+.info
+{
+    position: absolute;
+    width: 60.8rem;
+    height: 9.9rem;
+    left: 8.4rem;
+    top: 12.6rem;
+}
+
+.headinfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #23315f;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.headinfo h1
+{
+    font-size: 3.0rem;
+    color: #23315f;
+}
+.headinfo span
+{
+    color: #23315f;
+}
+
+.pictureinfo
+{
+    position: absolute;
+    width: 50.5rem;
+    height: 31.6rem;
+    left: 87.3rem;
+    top: 3.9rem;
+    background: url(https://cdn.pixabay.com/photo/2015/02/26/23/52/teacher-651318_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article
+{
+    position: absolute;
+    width: 152.0rem;
+    height: 39.2rem;
+    left: -0rem;
+    top: 44.2rem;
+    background: #c6a1f1;
+}
+
+article .content1
+{
+    position: absolute;
+    width: 29.0rem;
+    height: 7.0rem;
+    left: 9.4rem;
+    top: 32.2rem;
+}
+
+.content1 span
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3e2147;
+}
+
+.pic1
+{
+    position: absolute;
+    width: 28.3rem;
+    height: 23.3rem;
+    left: 9.4rem;
+    top: 5.2rem;
+    background: url(https://cdn.pixabay.com/photo/2020/09/25/19/51/teacher-5602475_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article .content2
+{
+    position: absolute;
+    width: 33.6rem;
+    height: 4.6rem;
+    left: 63.3rem;
+    top: 32.2rem;
+}
+
+.content2 span
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3e2147;
+}
+
+.pic2
+{
+    position: absolute;
+    width: 28.3rem;
+    height: 23.3rem;
+    left: 67.1rem;
+    top: 5.2rem;
+    background: url(https://cdn.pixabay.com/photo/2013/07/12/15/19/graduation-149646_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article .content3
+{
+    position: absolute;
+    width: 25.2rem;
+    height: 4.0rem;
+    left: 123.4rem;
+    top: 32.2rem;
+
+}
+
+.content3 span
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3e2147;
+}
+
+.pic3
+{
+    position: absolute;
+    width: 17.5rem;
+    height: 27.3rem;
+    left: 122.2rem;
+    top: 5.0rem;
+    background: url(https://cdn.pixabay.com/photo/2020/08/08/19/25/student-5473769_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer
+{
+    position: absolute;
+    width: 152.0rem;
+    height: 19.0rem;
+    left: -0rem;
+    top: 83.4rem;
+    background:#fcd8ff;
+}
+
+.footerinfo
+{
+    position: absolute;
+    width: 35.3rem;
+    height: 4.9rem;
+    left: 66.0rem;
+    top: 14.5rem;
+
+}
+
+.footerinfo span
+{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+
+}
+
+.fb
+{
+    position: absolute;
+    width: 9.7rem;
+    height: 9.3rem;
+    left: 51.6rem;
+    top: 4.5rem;
+    background: url(https://image.flaticon.com/icons/png/512/1384/1384005.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ig
+{
+    
+    position: absolute;
+    width: 9.7rem;
+    height: 9.3rem;
+    left: 63.6rem;
+    top: 4.5rem;
+    background: url(https://image.flaticon.com/icons/png/512/1384/1384015.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.twitter
+{
+    position: absolute;
+    width: 9.7rem;
+    height: 9.3rem;
+    left: 75.6rem;
+    top: 4.5rem;
+    background: url(https://image.flaticon.com/icons/png/512/733/733635.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.telegram
+{
+    position: absolute;
+    width: 9.7rem;
+    height: 9.3rem;
+    left: 87.6rem;
+    top: 4.5rem;
+    background: url(https://image.flaticon.com/icons/png/512/2111/2111708.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+*{
+    color: white;
+}
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px)
+{
+    html{
+        font-size: 45%;
+    }
+}
